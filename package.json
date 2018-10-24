@@ -1,14 +1,18 @@
 {
   "name": "gs",
   "description": "Provide access to ghostscript",
-  "version": "0.0.2",
-  "author": "Nick Campbell <nicholas.j.campbell@gmail.com> (http://github.com/ncb000gt)",
+  "version": "1.0.0",
+  "author": "@milesibastos",
+  "main": "index.js",
+  "bin": {
+    "gs": "./bin/gs-924-linux-x86_64"
+  },
   "bugs" : {
-    "url" : "http://github.com/ncb000gt/node-gs/issues"
+    "url" : "http://github.com/milesibastos/node-gs/issues"
   },
   "repository": {
     "type": "git",
-    "url": "http://github.com/ncb000gt/node-gs.git"
+    "url": "http://github.com/milesibastos/node-gs.git"
   },
   "scripts": {
     "test": "make test"
